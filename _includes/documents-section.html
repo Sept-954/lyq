@@ -1,0 +1,20 @@
+{% if page.documents and page.documents.size > 0 %}
+<div class="documents-section" style="margin-top: 2em; padding: 1.5em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
+  <h3 style="margin-top: 0; font-size: 1.1em;"><i class="fas fa-paperclip"></i> 附件文档</h3>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    {% for doc in page.documents %}
+    <li style="padding: 0.5em 0; border-bottom: 1px solid #eee;">
+      <a href="{{ doc.url }}" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 0.5em; text-decoration: none; color: #2c3e50;">
+        <i class="fas fa-file"></i>
+        <span>{{ doc.name }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% else %}
+<div class="documents-section" style="margin-top: 2em; padding: 1.5em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
+  <h3 style="margin-top: 0; font-size: 1.1em; color: #999;"><i class="fas fa-paperclip"></i> 附件文档</h3>
+  <p style="color: #bbb; text-align: center; margin: 1em 0;">空</p>
+</div>
+{% endif %}

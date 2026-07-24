@@ -1,0 +1,9 @@
+# 分类 / 标签描述
+# 格式：
+# categories:
+#   分类名称（slug化后）: "描述文字"
+# tags:
+#   标签名称（slug化后）: "描述文字"
+
+categories: {}
+tags: {}
