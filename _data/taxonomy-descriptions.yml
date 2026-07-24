@@ -1,9 +1,5 @@
-# 分类 / 标签描述
-# 格式：
-# categories:
-#   分类名称（slug化后）: "描述文字"
-# tags:
-#   标签名称（slug化后）: "描述文字"
-
-categories: {}
-tags: {}
+categories:
+  随笔: "关于金融科技的学习笔记和随笔文章"
+tags:
+  FinTech: "金融科技相关"
+  金融科技: "金融科技相关"
