@@ -6,138 +6,136 @@ description: >-
 url: "https://Sept-954.github.io"
 baseurl: "/lyq"
 repository: "Sept-954/lyq"
- 
- # Theme
- remote_theme: "mmistakes/minimal-mistakes@4.28.0"
- 
- # Plugins
- plugins:
-   - jekyll-include-cache
-   - jekyll-paginate
-   - jekyll-sitemap
-   - jekyll-gist
-   - jekyll-feed
-   - jemoji
-   - jekyll-archives
- 
- # Site locale
- locale: "zh-CN"
- 
- # Site author
- author:
-   name     : "L"
-   avatar   : "/assets/images/avatar.jpg"
-   bio      : "major in fintech"
-   location : ""
-   links:
-     - label: "GitHub"
-       icon: "fab fa-fw fa-github"
-       url: "https://github.com/Sept-954"
- 
- # Reading files
- encoding: "utf-8"
- markdown_ext: "markdown,mkdown,mkdn,mkd,md"
- 
- # Conversion
- markdown: kramdown
- highlighter: rouge
- lsi: false
- excerpt_separator: "\n\n"
- incremental: false
- 
- # Markdown Processing
- kramdown:
-   input: GFM
-   hard_wrap: false
-   auto_ids: true
-   footnote_nr: 1
-   entity_output: as_char
-   toc_levels: 1..6
-   smart_quotes: lsquo,rsquo,ldquo,rdquo
-   enable_coderay: false
- 
- # Pagination
- paginate: 5
- paginate_path: /page:num/
- 
- # Archives
- jekyll-archives:
-   enabled:
-     - categories
-     - tags
-   layouts:
-     category: archive-taxonomy
-     tag: archive-taxonomy
-   permalinks:
-     category: /categories/:name/
-     tag: /tags/:name/
- 
- # Defaults
- defaults:
-   # _posts
-   - scope:
-       path: ""
-       type: posts
-     values:
-       layout: single
-       author_profile: true
-       read_time: true
-       share: true
-       related: true
-   # _pages
-   - scope:
-       path: "_pages"
-       type: pages
-     values:
-       layout: single
-       author_profile: true
- 
- # SEO
- twitter:
-   username:
- og_image: /assets/images/default-og-image.jpg
- 
- # Analytics
- analytics:
-   provider: false
- 
- # Comments
- comments:
-   provider: false
- 
- # Social
- social:
-   type: Person
-   links:
-     - https://github.com/Sept-954
- 
- # Minify
- compress_html:
-   clippings: all
-   ignore:
-     envs: development
- 
- # Include
- include:
-   - _pages
- 
- # Exclude from processing
- exclude:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
-   - README.md
-   - LICENSE
-   - CHANGELOG.md
- 
- # Minimal Mistakes skin
- minimal_mistakes_skin: "air"
 
-# rebuild: 20260725-000511
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-archives
+
+# Site locale
+locale: "zh-CN"
+
+# Site author
+author:
+  name     : "L"
+  avatar   : "/assets/images/avatar.jpg"
+  bio      : "major in fintech"
+  location : ""
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Sept-954"
+
+# Reading files
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# SEO
+twitter:
+  username:
+og_image: /assets/images/default-og-image.jpg
+
+# Analytics
+analytics:
+  provider: false
+
+# Comments
+comments:
+  provider: false
+
+# Social
+social:
+  type: Person
+  links:
+    - https://github.com/Sept-954
+
+# Minify
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Include
+include:
+  - _pages
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - CHANGELOG.md
+
+# Minimal Mistakes skin
+minimal_mistakes_skin: "air"
