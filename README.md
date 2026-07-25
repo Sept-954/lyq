@@ -16,7 +16,7 @@
 
 ## GitHub Pages
 
-正式链接：正式链接：[https://Sept-954.github.io/lyq/](https://Sept-954.github.io/lyq/)
+正式链接：[https://Sept-954.github.io/lyq/](https://Sept-954.github.io/lyq/)
 
 
 ## 本地预览
