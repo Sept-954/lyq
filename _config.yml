@@ -1,11 +1,11 @@
-﻿ # Site settings
- title: "L 鐨勪釜浜虹┖闂?
- name: "L"
- description: >-
-   Fintech / 涓汉鍗氬
- url: "https://Sept-954.github.io"
- baseurl: "/lyq"
- repository: "Sept-954/lyq"
+# Site settings
+title: "L的个人空间"
+name: "L"
+description: >-
+  Fintech / 个人博客
+url: "https://Sept-954.github.io"
+baseurl: "/lyq"
+repository: "Sept-954/lyq"
  
  # Theme
  remote_theme: "mmistakes/minimal-mistakes@4.28.0"
