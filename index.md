@@ -16,7 +16,7 @@ major in fintech
 
 ## Skills
 
-<span style="background:#eef4ff;padding:0.3em 1em;border-radius:2em;display:inline-block;margin:0.3em;">C++（熟悉STL，有OO编程基础）</span>
+<span style="background:#eef4ff;padding:0.3em 1em;border-radius:2em;display:inline-block;margin:0.3em;">C++（熟悉STL，有编程基础）</span>
 <span style="background:#eef4ff;padding:0.3em 1em;border-radius:2em;display:inline-block;margin:0.3em;">Excel（数据透视表 / VLOOKUP）</span>
 
 ---
