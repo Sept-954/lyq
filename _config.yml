@@ -139,3 +139,20 @@ exclude:
 
 # Minimal Mistakes skin
 minimal_mistakes_skin: "air"
+
+# 顶部导航栏颜色
+masthead:
+  background: "#2c3e50"
+  text_color: "#ffffff"
+  
+# Navigation
+# 主菜单导航栏（会显示在顶部）
+main:
+  - title: "首页"
+    url: /
+  - title: "文章"
+    url: /posts/
+  - title: "分类"
+    url: /categories/
+  - title: "标签"
+    url: /tags/
